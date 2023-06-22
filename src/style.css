@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 15px;
+  background-color: #fff;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.cat-info {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  max-width: 400px;
+  margin-right: 20px;
+}
+
+.info {
+  flex-grow: 1;
+}
+
+.title {
+  text-align: center;
+  color: rgb(35, 35, 35);
+}
+
+.breed-select {
+  cursor: pointer;
+  width: 20%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+  color: rgb(35, 35, 35);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.loader {
+  display: none;
+  text-align: center;
+  margin: 20px 0;
+  color: rgb(35, 35, 35);
+  font-weight: bold;
+}
+
+.error {
+  display: none;
+  text-align: center;
+  margin: 20px 0;
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.description {
+  margin-bottom: 5px;
+  color: rgb(35, 35, 35);
+  }
+
+.temperament {
+  color: rgb(35, 35, 35);
+}
