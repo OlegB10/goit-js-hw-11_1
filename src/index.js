@@ -65,6 +65,10 @@ async function loadMoreImages() {
       top: cardHeight * 2,
       behavior: 'smooth',
     });
+    if (hits.length < 40) {
+      loadMore.hidden = true;
+      Notiflix.Notify.info('We\'re sorry, but you\'ve reached the end of search results.');
+    }
   } catch (error) {
     console.log(error);
     Notiflix.Notify.failure('Oops! Something went wrong. Please try again later.');
